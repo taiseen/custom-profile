@@ -7,7 +7,7 @@ const links = document.querySelectorAll('.navbar a');
 
 // Dynamically change <title> inner content, 
 // when user click at navigation links 
-links.forEach(link => {
+links.forEach((link, i) => {
     link.addEventListener('click', () => {
         let clickLink = link.children[1].innerHTML;
         document.title = `${title}'s - ${clickLink.charAt(0).toUpperCase() + clickLink.slice(1)}`;
@@ -44,10 +44,10 @@ workLoadMoreBtn.addEventListener('click', () => {
 });
 
 
-let loadMoreBtn = document.getElementById('blogLoadMore');
+let blogLoadMoreBtn = document.getElementById('blogLoadMore');
 let currentBlog = 3;
 
-loadMoreBtn.addEventListener('click', () => {
+blogLoadMoreBtn.addEventListener('click', () => {
 
     console.log()
     let boxes = [...document.querySelectorAll('.blogs .box-container .box')];
@@ -59,7 +59,7 @@ loadMoreBtn.addEventListener('click', () => {
     currentBlog += 3;
 
     if (currentBlog >= boxes.length) {
-        loadMoreBtn.style.display = 'none';
+        blogLoadMoreBtn.style.display = 'none';
     }
 });
 
@@ -75,12 +75,4 @@ let typed = new Typed('#inputFromJS', {
     backSpeed: 50,
     loop: true
 
-});
-
-
-window.addEventListener('scroll', () => {
-    links.forEach(link => {
-        link.addEventListener('click', () => {
-        });
-    });
 });

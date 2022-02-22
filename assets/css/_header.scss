@@ -16,10 +16,6 @@
             transition: padding 0.2s linear;
             @include fontStyle(2rem, var(--white));
 
-            // &.userClick{
-            //     padding   : 2rem;
-            //     background: var(--lightBg);
-            // }
 
             &:hover {
                 background    : var(--theme);

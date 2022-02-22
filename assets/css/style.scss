@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
 
 :root {
-    --theme     : #dc143c;
+    --theme     : #d65c15;
     --white     : #e2e2e2;
     --black     : #252525;
-    --lightBg   : #3d3d3d;
+    --lightBg   : #353535;
     --lightColor: #aaa;
     --boxShadow : 0 .5rem 1rem rgba(0, 0, 0, .7);
 }
@@ -75,11 +75,6 @@ but in responsive - its resizing at 991px
 */
 section {
     padding         : 2rem 9%;
-    // margin-bottom: 3rem;
-
-    // &:last-of-type {
-    //     margin-bottom: 0;
-    // }
     // min-height: 90vh;
 }
 
