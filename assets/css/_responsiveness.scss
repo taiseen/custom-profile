@@ -47,14 +47,13 @@
     }
 
     .home {
-        text-align : center;
-        padding-top: 3rem;
-        gap        : 1rem;
+        text-align    : center;
+        // padding-top: 3rem;
+        gap           : 2rem;
 
         .image img {
-            height: 32rem;
-            width : 32rem;
-
+            height: 35rem;
+            width : 35rem;
         }
 
         .content {
@@ -94,12 +93,13 @@
     }
 
     .home {
-        gap: 0rem;
+        // gap          : 2rem;
+        align-content: start;
 
-        .image{
-            margin-top: 0rem;
+        .image {
+            margin-top: 1.5rem;
         }
-        
+
         .content {
 
             .name {
@@ -111,27 +111,12 @@
             }
 
             h1 {
-                padding    : .2rem 0;
+                padding: .2rem 0;
             }
 
             p {
-                padding-bottom: .5rem;
-                line-height   : 1.4;
-            }
-
-            .btn {
-
-                &:hover i {
-                    margin-left: 1rem;
-                }
-
-                i {
-                    height     : 3rem;
-                    width      : 3rem;
-                    line-height: 3rem;
-                    margin-left: .3rem;
-                    @include fontStyle(1.5rem, var(--theme));
-                }
+                padding-bottom: 1rem;
+                line-height   : 1.5;
             }
         }
     }
