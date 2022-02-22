@@ -21,17 +21,17 @@
 
 
 * {
-    margin            : 0;
-    padding           : 0;
-    border            : 0;
-    outline           : none;
-    list-style        : none;
+    margin         : 0;
+    padding        : 0;
+    border         : 0;
+    outline        : none;
+    list-style     : none;
     user-select    : none;
-    text-decoration   : none;
-    text-transform    : capitalize;
-    box-sizing        : border-box;
-    font-family       : 'Poppins', sans-serif;
-    transition        : all .3s linear;
+    text-decoration: none !important;
+    text-transform : capitalize;
+    box-sizing     : border-box;
+    font-family    : 'Poppins', sans-serif;
+    transition     : all .3s linear;
 }
 
 @import 'mixing';
@@ -65,8 +65,8 @@ html {
 
 
 body {
-    background-color: var(--black);
-    padding-bottom  : 6.5rem;
+    background    : var(--black);
+    padding-bottom: 6.5rem;
 }
 
 /* 

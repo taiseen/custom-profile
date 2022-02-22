@@ -94,8 +94,12 @@
     }
 
     .home {
-        gap: 0rem;
+        gap: 1rem;
 
+        .image{
+            margin-top: 2rem;
+        }
+        
         .content {
 
             .name {
