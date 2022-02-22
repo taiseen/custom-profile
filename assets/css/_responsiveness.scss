@@ -52,8 +52,8 @@
         gap        : 1rem;
 
         .image img {
-            height: 35rem;
-            width : 35rem;
+            height: 32rem;
+            width : 32rem;
 
         }
 
@@ -94,16 +94,29 @@
     }
 
     .home {
-        gap: 1rem;
+        gap: .5rem;
 
         .image{
-            margin-top: 2rem;
+            margin-top: 1rem;
         }
         
         .content {
 
             .name {
                 display: block;
+            }
+
+            h3 {
+                padding-bottom: .2rem;
+            }
+
+            h1 {
+                padding    : .2rem 0;
+            }
+
+            p {
+                padding-bottom: .5rem;
+                line-height   : 1.4;
             }
 
             .btn {

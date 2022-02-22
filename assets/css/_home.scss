@@ -31,14 +31,7 @@
             @include fontStyle(8rem, var(--theme));
             padding    : .5rem 0;
             font-weight: 500;
-
-            #inputFromJS {
-
-
-                // display: block;
-            }
         }
-
 
         p {
             @include fontStyle(1.8rem, var(--lightColor));
