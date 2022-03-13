@@ -1,5 +1,7 @@
 .skills {
-    margin-bottom: 15rem;
+
+    margin-bottom   : 5rem;
+    min-height      : max-content;
 
     .box-container {
         @include grid(16rem);

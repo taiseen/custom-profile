@@ -21,17 +21,22 @@
 
 
 * {
-    margin         : 0;
-    padding        : 0;
-    border         : 0;
-    outline        : none;
-    list-style     : none;
-    user-select    : none;
-    text-decoration: none !important;
-    text-transform : capitalize;
-    box-sizing     : border-box;
-    font-family    : 'Poppins', sans-serif;
-    transition     : all .3s linear;
+    margin            : 0;
+    padding           : 0;
+    border            : 0;
+    outline           : none;
+    list-style        : none;
+    // user-select    : none;
+    text-decoration   : none !important;
+    text-transform    : capitalize;
+    box-sizing        : border-box;
+    font-family       : 'Poppins', sans-serif;
+    transition        : all .3s linear;
+}
+
+*::selection {
+    background: var(--theme);
+    color     : var(--white);
 }
 
 @import 'mixing';
@@ -48,7 +53,7 @@ html {
     font-size         : 62.5%;
     overflow-x        : hidden;
     scroll-behavior   : smooth;
-    scroll-padding-top: 6rem;
+    // scroll-padding-top: 0rem;
 
     &::-webkit-scrollbar {
         width: 1rem;
@@ -74,8 +79,8 @@ Style Scale for all
 but in responsive - its resizing at 991px
 */
 section {
-    padding         : 2rem 9%;
-    // min-height: 90vh;
+    padding      : 2rem 9%;
+    min-height: 90vh;
 }
 
 .btn {

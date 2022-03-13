@@ -1,7 +1,6 @@
 21 - Feb - 2022 
 
-# Custom Profile | [Live-Link](https://taiseen.github.io/custom-profile)
-
+# Andalib Profile | [Live Link](https://taiseen.github.io/custom-profile)
 
 ## Using Tools
 * HTML

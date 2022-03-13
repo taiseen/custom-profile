@@ -1,14 +1,17 @@
 .education {
-    margin-bottom: 5rem;
     
+    margin-bottom   : 5rem;
+    min-height      : max-content;
+
     .box-container {
 
-        display  : flex;
-        flex-wrap: wrap;
+        display        : flex;
+        flex-wrap      : wrap;
+        justify-content: center;
 
         .box {
             position   : relative;
-            flex       : 1 1 40rem;
+            flex       : 1 1 35rem;
             margin-left: 2rem;
             padding    : .8rem 0 2rem 3.5rem;
             border-left: .1rem solid var(--lightColor);
@@ -44,5 +47,5 @@
                 line-height: 2;
             }
         }
-      }
+    }
 }
